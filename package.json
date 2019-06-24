@@ -1,0 +1,23 @@
+{
+  "name": "marlongamez.github.io",
+  "version": "0.0.1",
+  "description": "My portfolio :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonGamez/marlongamez.github.io.git"
+  },
+  "author": "Marlon Gamez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarlonGamez/marlongamez.github.io/issues"
+  },
+  "homepage": "https://github.com/MarlonGamez/marlongamez.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
