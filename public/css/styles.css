@@ -1,25 +1,38 @@
 body {
     background-color: black;
-    font-family: "Courier New",Courier,monospace;
+    background-color: #2B303B;
+    font-family: "Consolas",monospace;
+    color: #FBFBD4;
+    color: #FFFDE5;
+    /*color: white;*/
     /*font-family: europa, sans-serif;*/
 }
 
 div {
-    color: white;
+    /*color: white;*/
 }
 
 a {
-    color: white;
+    color: #FFFDE5;
+    /*color: white;*/
     text-decoration: none;
 }
-
 
 .center {
     margin: auto;
     width: 75%;
+    max-width: 850px;   
 }
 
+.main-content {
+    margin: auto;
+    width: 75%;
+    max-width: 850px;
 
+    font-size: 20px;
+}
+
+/* HEADER */
 .header {
     margin: 6vh auto 3vh auto;
 }
@@ -52,7 +65,6 @@ a {
     margin: 20px 0;
     display:inline;
 
-    /*font-family: europa, sans-serif;*/
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
@@ -61,40 +73,36 @@ a {
 
 .navitem {
     display: inline-block;
-    padding: 0 .75vw 0 0;
+    padding: 0 .15vw 0 0;
+    padding: 0;
 }
 
 .navitem > a:hover {
-    color: #aea;
+    color: #D7D7B0;
+
 }
 
 .current {
-    color: #afa;
+    color: #D7D7B0;
 }
 
+/* FOOTER */
 .footer {
     text-align: right;
-    margin: 6vh auto 3vh auto;  
+    margin: 6vh auto 3vh auto;
+
+    font-size: 18px;
 }
 
 .footer > hr {
     height: 1px;
-    background-color: white;
+    background-color: #D7D7B0;
+    border-color: #D7D7B0;
     margin: 0 0 2vh 0;
 }
 
-.socials {
-    
-    margin: 0 auto;
-    width: 100%;
-}
-
-.socials-container {
-    margin: 0 auto;
-}
-
-.social > img {
-    width: inherit;
+.footer > a:hover {
+    color: #D7D7B0;
 }
 
 .center > img {

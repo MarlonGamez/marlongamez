@@ -7,11 +7,6 @@ const router = express.Router()
 const app = express()
 
 // Use handlebars for view engine
-// var hbs = exphbs.create({
-//     helpers: {
-//         if_eq: (a, b) => {}
-//     }
-// })
 app.engine('handlebars', exphbs())
 app.set('view engine', 'handlebars')
 
