@@ -29,12 +29,12 @@ a {
     width: 75%;
     max-width: 850px;
 
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* HEADER */
 .header {
-    margin: 6vh auto 3vh auto;
+    margin: 6vh auto 30px auto;
 }
 
 .title {
