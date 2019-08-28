@@ -4,17 +4,10 @@ body {
     font-family: "Consolas",monospace;
     color: #FBFBD4;
     color: #FFFDE5;
-    /*color: white;*/
-    /*font-family: europa, sans-serif;*/
-}
-
-div {
-    /*color: white;*/
 }
 
 a {
     color: #FFFDE5;
-    /*color: white;*/
     text-decoration: none;
 }
 
